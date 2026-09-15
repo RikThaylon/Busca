@@ -1,0 +1,11 @@
+PC-002 · Procedimento de Compras · Revisão 01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+1. Solicitação
+O solicitante registra descrição, quantidade, justificativa e centro de custo no formulário de compras. O setor de compras verifica o cadastro do fornecedor e solicita três cotações, quando disponíveis.PC-002 · 2. Alçadas de aprovação
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+Compras superiores a R$ 10.000 exigem aprovação conjunta do gerente da área solicitante e do diretor financeiro antes da emissão do pedido. Compras de até R$ 10.000, inclusive, são aprovadas pelo gerente da área solicitante. O comprador registra as aprovações no pedido de compra.
+
+3. Emissão do pedido
+O setor de compras emite o pedido somente após a conclusão das aprovações. O recebimento confere quantidade e condição dos materiais e comunica divergências ao comprador.

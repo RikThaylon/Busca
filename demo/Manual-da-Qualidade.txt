@@ -1,0 +1,9 @@
+MQ-001 · Manual da Qualidade · Revisão 01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+Aurora Componentes é uma empresa inteiramente fictícia.
+
+1. Objetivo e escopo
+Este manual demonstrativo descreve o controle documental da organização fictícia Aurora Componentes. Não constitui certificação ISO nem procedimento aplicável a uma empresa real.MQ-001 · 2. Controle documental
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+A coordenação da qualidade aprova revisões de procedimentos internos antes de sua publicação. O responsável pela biblioteca remove versões obsoletas da base de consulta. Cada documento deve apresentar código, revisão e responsável. A revisão do sistema da qualidade ocorre anualmente.

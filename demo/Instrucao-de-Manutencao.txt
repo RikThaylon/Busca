@@ -1,0 +1,8 @@
+IM-004 · Instrução de Manutenção · Revisão 01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+1. Escopo
+Esta instrução fictícia se aplica exclusivamente ao transportador demonstrativo TR-01. Outros equipamentos possuem planos próprios; não se deve extrapolar esta periodicidade.IM-004 · 2. Plano preventivo do TR-01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+A periodicidade da manutenção preventiva do transportador demonstrativo TR-01 é mensal, a cada 30 dias. O técnico de manutenção registra a execução na ordem de serviço. O plano inclui inspeção visual de correias e verificação de fixações conforme instruções específicas aprovadas. A regra não se aplica automaticamente a outros equipamentos.
