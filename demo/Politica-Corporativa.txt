@@ -1,0 +1,8 @@
+POL-005 · Política Corporativa · Revisão 01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+1. Proteção de informações
+Documentos internos somente podem ser compartilhados com pessoas autorizadas. O envio para serviços externos depende de aprovação prévia do responsável pelo documento e da equipe de TI. Dados pessoais desnecessários devem ser removidos antes da inclusão em ferramentas de consulta.POL-005 · 2. Responsabilidades
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+A gerência administrativa é responsável pela política corporativa. Solicitações de acesso devem indicar finalidade e prazo. A revisão de permissões ocorre a cada trimestre. Não é permitido usar documentos de clientes para treinamento de modelos sem autorização específica e fundamento adequado.

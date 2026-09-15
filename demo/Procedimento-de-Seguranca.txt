@@ -1,0 +1,8 @@
+PS-003 · Procedimento de Segurança · Revisão 01
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+1. Uso exclusivamente demonstrativo
+Este texto simula um procedimento interno de uma empresa inexistente. Não substitui treinamento, orientação de segurança ou um plano de emergência real.PS-003 · 2. Comunicação de ocorrências
+DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO
+
+Em caso de acidente no cenário fictício da Aurora Componentes, o colaborador interrompe a atividade quando isso puder ser feito com segurança e comunica imediatamente a ocorrência à brigada e ao supervisor. A equipe habilitada aciona o atendimento previsto no plano de emergência da unidade. Após o atendimento, o supervisor registra a ocorrência e informa o setor de segurança do trabalho. Somente pessoal treinado executa atendimento ou intervenção.
