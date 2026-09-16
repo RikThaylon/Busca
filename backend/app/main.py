@@ -12,7 +12,7 @@ from .db import get_db, User, Tenant, Session, Document, Chunk, History, Audit, 
 from .security import current_user, admin, verify_password, hash_password, token_hash, throttle, audit
 from .services import ingest, get_document, visible, remove_document, answer, revalidate, NOT_FOUND
 
-app = FastAPI(title='BRIMAJOR AI DOCS', docs_url='/api/docs' if cfg.MODE == 'demo' else None, redoc_url=None)
+app = FastAPI(title='Busca documental', docs_url='/api/docs' if cfg.MODE == 'demo' else None, redoc_url=None)
 app.add_middleware(CORSMiddleware, allow_origins=[cfg.ORIGIN], allow_credentials=True, allow_methods=['GET', 'POST', 'DELETE'], allow_headers=['Content-Type'])
 DUMMY_PASSWORD = hash_password(secrets.token_urlsafe(32))
 

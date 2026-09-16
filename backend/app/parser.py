@@ -50,9 +50,12 @@ def extract(raw, extension):
 
 
 if __name__ == '__main__':
-    import resource
-    resource.setrlimit(resource.RLIMIT_AS, (512 * 1024 * 1024,) * 2)
-    resource.setrlimit(resource.RLIMIT_CPU, (15, 15))
+    try:
+        import resource
+        resource.setrlimit(resource.RLIMIT_AS, (512 * 1024 * 1024,) * 2)
+        resource.setrlimit(resource.RLIMIT_CPU, (15, 15))
+    except ImportError:
+        pass
     try:
         print(json.dumps(extract(sys.stdin.buffer.read(10 * 1024 * 1024 + 1), sys.argv[1])))
     except Exception:

@@ -1,4 +1,4 @@
-# BRIMAJOR AI DOCS
+# Busca documental
 
 **Encontre em segundos informações espalhadas em procedimentos, manuais e documentos internos.**
 
@@ -37,8 +37,8 @@ Abra `http://localhost:5173` (use **localhost**, não 127.0.0.1, para correspond
 
 | Perfil | E-mail | Senha fictícia |
 |---|---|---|
-| Administrador | demo@brimajor.local | Demo-Ficticia-2026! |
-| Leitor | leitor@brimajor.local | Demo-Leitor-2026! |
+| Administrador | demo@busca.local | Demo-Ficticia-2026! |
+| Leitor | leitor@busca.local | Demo-Leitor-2026! |
 
 Este modo usa **SQLite + busca textual**, sem modelo, API ou embeddings simulados. Serve para demonstrar o fluxo, não para comprovar qualidade de busca semântica.
 

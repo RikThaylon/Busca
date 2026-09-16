@@ -22,14 +22,14 @@ def demo():
         raise RuntimeError('Seed fictício bloqueado fora do modo demo')
     init()
     with SessionLocal() as db:
-        user = db.scalar(select(User).where(User.email == 'demo@brimajor.local'))
+        user = db.scalar(select(User).where(User.email == 'demo@busca.local'))
         if not user:
             tenant = Tenant(name='Aurora Componentes • empresa fictícia')
             db.add(tenant)
             db.flush()
-            user = User(tenant_id=tenant.id, email='demo@brimajor.local', role='admin', password=hash_password('Demo-Ficticia-2026!'))
+            user = User(tenant_id=tenant.id, email='demo@busca.local', role='admin', password=hash_password('Demo-Ficticia-2026!'))
             db.add(user)
-            db.add(User(tenant_id=tenant.id, email='leitor@brimajor.local', role='reader', password=hash_password('Demo-Leitor-2026!')))
+            db.add(User(tenant_id=tenant.id, email='leitor@busca.local', role='reader', password=hash_password('Demo-Leitor-2026!')))
             db.commit()
         root = Path(__file__).resolve().parents[2] / 'demo'
         if not root.exists():
