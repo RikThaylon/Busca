@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from fastapi import HTTPException
+from fastapi import HTTPException, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 
@@ -8,6 +8,18 @@ from .main import app
 
 STATIC_DIR = Path(__file__).resolve().parents[1] / 'static'
 ASSETS_DIR = STATIC_DIR / 'assets'
+
+
+@app.middleware('http')
+async def render_frontend_headers(request: Request, call_next):
+    response = await call_next(request)
+    response.headers['Content-Security-Policy'] = (
+        "default-src 'self'; script-src 'self'; style-src 'self'; "
+        "img-src 'self' data:; font-src 'self'; connect-src 'self'; "
+        "object-src 'none'; base-uri 'self'; frame-ancestors 'none'"
+    )
+    return response
+
 
 if ASSETS_DIR.exists():
     app.mount('/assets', StaticFiles(directory=ASSETS_DIR), name='assets')
