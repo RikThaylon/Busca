@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: busca-documental-demo
+    runtime: docker
+    plan: free
+    region: virginia
+    dockerfilePath: ./Dockerfile.render
+    healthCheckPath: /api/health
+    autoDeployTrigger: checksPass
+    envVars:
+      - key: APP_MODE
+        value: demo
+      - key: APP_ORIGIN
+        fromService:
+          type: web
+          name: busca-documental-demo
+          envVarKey: RENDER_EXTERNAL_URL
+      - key: DATABASE_URL
+        value: sqlite:////app/data/demo.db
+      - key: DATA_DIR
+        value: /app/data
+      - key: SECURE_COOKIE
+        value: "true"
+      - key: AI_PROVIDER
+        value: none
+      - key: RETENTION_DAYS
+        value: "30"
