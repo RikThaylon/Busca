@@ -2,7 +2,7 @@
 
 **Encontre em segundos informações espalhadas em procedimentos, manuais e documentos internos.**
 
-MVP de inteligência documental para validar um **piloto pago de 30 dias**. Interface com Documentos, Assistente e Histórico; respostas extrativas com documento, página, seção e abertura da evidência.
+PoC de inteligência documental para validar um **piloto **. Interface com Documentos, Assistente e Histórico; respostas extrativas com documento, página, seção e abertura da evidência.
 
 > DADOS FICTÍCIOS — AMBIENTE DEMONSTRATIVO. A empresa Aurora Componentes e os cinco documentos incluídos são inteiramente fictícios. Não usar suas instruções em operações reais.
 
